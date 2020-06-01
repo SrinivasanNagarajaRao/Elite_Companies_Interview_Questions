@@ -12,7 +12,7 @@ class stack(object):
         return self.items
 
     def is_empty(self):
-        self.items == []
+        return self.items == []
         
     def peek(self):
         if not self.is_empty():
